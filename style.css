@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-cabecalho{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ebe1e1;
+}
+
+header{
+   
+  
+    margin-left: 3px;
+}
+
+h1{
+    font-family:'Comfortaa', cursive;
+    color:#FCA311;
+    padding: 10px;
+}
+
+nav{
+    position: relative;
+    left: 705px;
+}
+
+.navegacao li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 15px;
+    position: relative;
+    top: 5px;  
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    font-family:'Comfortaa', cursive;
+    font-weight: bolder;
+    font-size: large;}
+
+.navegacao a{
+    text-decoration: none; 
+    color:#1f497a;
+}
+
+.navegacao a:hover{
+    color: #FCA311;
+    text-decoration: underline;
+}
+
+.secao-boasvindas{
+    background: #ec9a1685;
+    height: 80px;
+}
+
+.secao-boasvindas p{
+    color:#1f497a;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding: 15px;
+}
+
+main{
+    margin: 35px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.div-sobre-nos{
+    width: 850px;
+  
+}
+
+
+.div-sobre-nos h2{
+    text-align: center;
+    padding: 10px;
+    color:#1f497a;
+    font-family:'Comfortaa', cursive;
+}
+
+.div-sobre-nos p{
+    text-align: justify;
+    padding: 15px;
+    color:#1f497a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, serif;
+}
+
+
+.div-doacao{
+    width: 850px;
+   
+}
+
+.div-doacao h2{
+    color:#1f497a;
+    text-align: center;
+    font-family:'Comfortaa', cursive;
+}
+
+.div-doacao p{
+    color:#1f497a;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.formulario h2{
+    padding: 10px;}
+
+.formulario p{
+    padding: 15px;
+}
+
+.campos-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #1f497a;
+}
+
+.campos-formulario label{
+    padding: 8px;
+}
+input{
+    width: 350px;
+    height: 30px;
+}
+
+select{
+    display:block;
+    margin: 15px auto;
+}
+
+button {
+    width:180px;
+    height: 15px;
+    padding: 20px ;
+    background: #1f497a;
+    color:#E5E5E5;
+    
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}
+    
+
+
+button:hover{
+    background:#E5E5E5;
+    color:#c27800;
+    font-weight: bolder;
+    border: 2px solid #c27800;
+  
+}
+
+footer{
+    width: 100%;
+    background-color:#1f497a;
+   
+}
+.footer-list{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-list li{
+    font-family:'Comfortaa', cursive;
+    font-size: x-small;
+    list-style-type: none;
+    padding:12px;
+}
+    
+
+.footer-list a{
+    text-decoration: none;
+    color: #E5E5E5;
+    
+}
+
+
+.footer-list a:hover{
+    color: #FCA311;
+    font-size: small ;
+}
